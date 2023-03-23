@@ -225,6 +225,20 @@ X: 未知状态(很可能是遇到git的bug了，你可以向git提交bug report
 
 ***
 
+# git与github连接
+
+```
+git config --global user.name "your name"     设置用户名
+
+git config --global user.email "your email"    设置邮箱
+
+ssh-keygen -t rsa -C "your email"         生成ssh公钥
+
+ssh -T git@github.com          测试连接
+```
+
+***
+
 # 相关命令补充说明
 
 ## git remote 
