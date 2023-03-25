@@ -55,6 +55,7 @@ git pull       从远程获取代码库并合并
 git push
 git push <远程主机名> <本地分支名>:<远程分支名>
 git push origin master     将本地的 master 分支推送到 origin 主机的 master 分支。
+新的分支第一次push要加 -u 参数
 
 git fetch upstream    更新本地版本
 ```
@@ -68,7 +69,7 @@ git branch (branchname)     创建分支
 
 git checkout (branchname)     切换分支
 
-git merge                 合并分支
+git merge <branch>  其中<branch>为需要合并到当前分支的目标分支名称。  合并分支
 ```
 
 ## 列出分支
