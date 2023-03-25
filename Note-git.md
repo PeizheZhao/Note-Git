@@ -48,9 +48,9 @@ git log
 ```
 git remote     远程仓库操作(详见补充说明)
 
-git fetch      从远程获取代码库
+git fetch      从远程获取代码库不合并
 
-git pull
+git pull       从远程获取代码库并合并
 
 git push
 git push <远程主机名> <本地分支名>:<远程分支名>
