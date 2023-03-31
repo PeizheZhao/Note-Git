@@ -256,6 +256,8 @@ ssh -T git@github.com          测试连接
 
 # github正确标准的工作流
 
+[原视频【十分钟学会正确的github工作流，和开源作者们使用同一套流程】](https://www.bilibili.com/video/BV19e4y1q7JJ/?spm_id_from=333.1007.top_right_bar_window_default_collection.content.click&vd_source=9569401fceb5dd222cf4b52f39408100)
+
 1.git clone // 到本地
 2.git checkout -b xxx 切换至新分支xxx
 （相当于复制了remote的仓库到本地的xxx分支上
